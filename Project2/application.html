@@ -1,0 +1,49 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
+<div class = "topnav">
+<h1 class = OmniLogo>
+Omni
+</h1>
+<div class = "titlebuttons">
+<a href="index.html"><button>about</button></a>
+<a href="sponsors.html"><button>sponsors</button></a>
+<a href="application.html"><button>application</button></a>
+<a href="schedule.html"><button>schedule</button></a>
+<a href="speakers.html"><button>speakers</button></a>
+</div><br>
+</div>
+
+<body>
+<h1>
+Application
+</h1>
+<div class = "outlineBox">
+Interested in attending? Fill out the following to be considered for invitation.<br><br>
+
+(Designer: you will need to design what this for will look like and style it accordingly, our developers will handle making the form function)<br><br>
+
+Your Name (required):	<input type="text" id="fname" name="fname"><br>
+Email Address (required):	<input type="text" id="fname" name="fname"><br>
+LinkedIn Profile:	<input type="text" id="fname" name="fname"><br>
+What is your role? (required):	<input type="text" id="fname" name="fname"><br>
+
+<br>
+
+<button onclick="submitButton()">Submit</button>
+
+<p id="submitb"></p>
+
+<script>
+function submitButton() {
+  document.getElementById("submitb").innerHTML = "Thank you! We will reach out to confirm registration.";
+}
+</script>
+
+(Upon submission, display this text):<br>
+Thank you! We will reach out to confirm registration.<br><br>
+</body>
+</div>
+</html>

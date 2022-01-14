@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
+<body>
+<form action="mailto:someone@example.com?subject=come to my party! (code: ABCDEE)" method="post" enctype="text/plain"> <!-- sends an email -->
+<h1 class = "maintitle"><img src="img/hat.png" width="50" height="60">Party Host Page</h1> <!--Displays the image on the same line as the text-->
+<h2> Enter Party Information: </h2> <!--Party info that is settable and should appear in the email-->
+<div class = "left">
+  <input type="text" id="fname" name="Party Name" value="Party Name"><br>
+  <br><textarea id="desc" name="Party Description" placeholder="Party Description:" style="height:485px; width:300px"></textarea><br>
+</div>
+<div class = "middle"> 
+  <label for="partydate">Party Date:</label>
+  <input type="date" id="partydate" name="Party Date"><br>
+  <label for="partytime">Party Start Time:</label>
+  <input type="time" id="partytime" name="Party Time"><br>
+  <label for="partytime">Party End Time:</label>
+  <input type="time" id="partylength" name="Expected Party Length"><br>
+ </div>
+ <div class = "midright">
+  <br><textarea id="foodreq" name="Food Requests" placeholder="Food Requests:" style="height:200px; width:300px"></textarea><br>
+  <br><textarea id="aller" name="Allergens" placeholder="Allergens:" style="height:200px; width:300px"></textarea><br>
+  </div>
+  <div class = "right">
+  <br><textarea id="foodreq" name="Partygoers" placeholder="Enter partygoer emails here: (seperate with a comma)" style="height:430px; width:400px"></textarea><br>
+</div>
+<!--Navigation-->
+<input type="submit" value="Send"">
+<a href="index.html"><input type="button" value="Back">
+</body>
+</form> 
+</html>

@@ -1,0 +1,85 @@
+/*top menu, always on the screen*/
+.maintitle{
+	font-weight: bold;
+	color: black;
+	font-size: 80px;
+}
+mainpagebutton{
+.w3-button {width:150px}	
+}
+.titleimage{
+	width = 20px;
+}
+/*left, middle, midright, and right are for the subpages. They use floating seperate them*/
+.left{
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+.middle{
+}
+	float: top;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.midright{
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.right{
+	margin-left: 20px;
+	margin-right: 20px;
+	float: top-right;
+}
+.leftinfo{
+	margin-left: 50px;
+	float: left;
+	margin-right: 150px;
+}
+.partyinfo{
+	float: left;
+}
+/*for signing up for food*/
+.signup{
+	float: right;
+}
+.centerbuttons{
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-align: center;
+}
+.menubutton{
+float: middle;
+}
+body{
+	background-color: #eb967c;
+	width: 1080px;
+	margin: auto;
+}
+/*this is for the code you enter on the main page (which does nothing)*/
+.partygoercode{
+	outline-style: solid;
+	float: bottom-center;
+	text-align: center;
+}
+/*the party host button*/
+.partyhost{
+	outline-style: solid;
+	float: top;
+	padding-bottom: 10px;
+}
+/*this is for the different buttons you can click in the submenus for going back and submitting*/
+input[type=button], input[type=submit]{
+  float: right;
+  background-color: #ff5e00;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
