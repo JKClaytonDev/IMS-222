@@ -1,0 +1,129 @@
+.toptitle{
+	font-size: 50px;
+	font-style: italic;
+	background-color: grey;
+	 border: 3px solid black;
+	height : 100px;
+}
+.left{
+	margin-left: 50px;
+	float: left;
+	width: 200px;
+}
+.middle{
+	float: left;
+	margin-left: 250px;
+	width: 200px;
+}
+.right{
+	margin-right: 50px;
+	float: right;
+	width: 200px;
+}
+.top{
+	float: top;
+}
+.split{
+	background-color: #c0cfc4;
+	margin: 10px;
+	float: right;
+	width: 400px;
+	height: 300px;
+	}
+.welcome{
+	margin-left: 150px;
+}
+nav{
+line-height: 3;
+background-color: #c0cfc4;
+width: 400px;
+float: left;
+margin-bottom: 20000;	
+margin-right: 10;
+}
+.leftside{
+	float: left;
+}
+.rightside{
+	float: bottom-center;
+}
+/*
+flex container
+
+From Artie Kuhn to Everyone:  12:22 PM
+<html>
+<head>
+	<style>
+		:root {
+			font-size: 100%;
+		}
+		#container {
+			display: flex;
+		}
+		nav {
+			width: 25%;
+			background-color: green;
+			margin: 0%;
+			padding: 0%;
+		}
+		nav ul {
+			margin: 0%;
+			padding: 0%;
+		}
+		nav ul li {
+			margin: 2%;
+			padding: 1%;
+			list-style-type: none;
+			color: white;
+			border: 1px solid white;
+			font: normal 1.5em Arial;
+		}
+		nav ul li:hover {
+			color: green;
+			background-color: white;
+		}
+		h1 {
+			color: blue;
+			font: normal 2em Arial;
+		}
+		
+		@media (max-width: 700px) {
+			:root {
+				font-size: 115%;
+			}
+			#container {
+				flex-wrap: wrap;
+			}
+			nav {
+				width: 100%;
+			}
+			nav ul {
+				display: flex;
+			}
+			nav ul li {
+				padding: 0px;
+				margin: 0px;
+				width: 33%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<nav>
+			<ul>
+				<li>Item 1</li>
+				<li>Item 2</li>
+				<li>Item 3</li>
+			</ul>
+		</nav>
+		<article>
+			<h1>
+				This is a headline
+			</h1>
+		<article>
+	</div>
+</body>
+</html>
+
+*/

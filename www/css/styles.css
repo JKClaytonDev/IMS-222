@@ -1,0 +1,41 @@
+h5, h4{
+	margin-top: 0px;
+  margin-bottom: 5px;
+  margin-right: 150px;
+  margin-left: 0px;
+  font: normal 14px Helvetica, Arial, sans-serif
+}
+img {
+  border: 5px solid #FFFFFF;
+}
+h5{
+	margin-top: 0px;
+	margin-bottom: -10px;
+	color:#7B8594;
+	font: normal 15px Helvetica, Arial, sans-serif
+
+}
+h4{
+	color:#898C31;
+	font-size:120%;
+}
+ol, ul{
+
+	 style=color:#583534;
+}
+p {
+	
+	
+	color:#393534;
+
+}
+.titleText{
+
+		background-color: #d9d9d9
+		
+}
+h1, h2, h3{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font: normal 15px Helvetica, Arial, sans-serif
+}
